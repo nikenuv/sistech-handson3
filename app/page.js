@@ -1,10 +1,13 @@
-import {Home} from "../components";
+import {Home, Course, Workshop, About, Footer} from "../components";
 
 export default function Page() {
   return (
-    <main className="flex-1 w-full h-full min-h-screen mx-auto flex items-center">
+    <main className="flex flex-col overflow-hidden">
       <Home />
-        
+      <Course />
+      <Workshop />
+      <About />
+      <Footer />
     </main>
   );
 }

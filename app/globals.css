@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-behavior: smooth;
+}
+
 home-container{
     background-image: url(/begron1.png);
     background-size: cover;
