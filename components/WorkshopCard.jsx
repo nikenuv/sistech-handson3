@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProductCard = ({ workshop }) => {
+const WorkshopCard = ({ workshop }) => {
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden">
       <div className="relative">
@@ -23,4 +23,4 @@ const ProductCard = ({ workshop }) => {
   );
 };
 
-export default ProductCard;
+export default WorkshopCard;
